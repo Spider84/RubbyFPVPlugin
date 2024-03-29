@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}/**",
+                "${workspaceRoot}/../../RubyFPV/code"
+            ],
+            "defines": [
+                "_GNU_SOURCE"
+            ],
+            "compilerPath": "/usr/bin/arm-linux-gnueabihf-g++",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-arm",
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "cStandard": "gnu17",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "${workspaceRoot}/**",
+                    "${workspaceRoot}/../../RubyFPV/code"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

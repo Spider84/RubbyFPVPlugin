@@ -1,0 +1,6 @@
+{
+    "makefile.makePath": "make",
+    "files.associations": {
+        "string_view": "cpp"
+    }
+}
